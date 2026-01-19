@@ -199,7 +199,7 @@ position: absolute;
 .host-container{
     display: grid;
     grid-template-columns: repeat(2,auto);
-    padding: 20px 30px;
+    padding: 20px 180px;
    border-radius: 35px;
    margin: 70px 35px;
    place-items: center;
@@ -208,8 +208,7 @@ position: absolute;
 .host-image{
     padding: 40px;    
 }
-.host-image img{float: right;
-}
+
 .host-info{
     align-items: flex-start;
 }
@@ -259,11 +258,8 @@ position: absolute;
     grid-template-rows: repeat(2,auto);
     gap: 15px;
 }
-    
-
 .grid{
     grid-template-columns: repeat(1,1fr);
-   
     gap: 10px; 
 }
 .videos{
@@ -277,14 +273,13 @@ position: absolute;
    margin:35px;
    
 }
-.host-image img{float: left;
-}
+
 .host-info{
     align-items: center;
 }
-{
-    f
-}
+
+
+
 .menu-foot ul li{
     margin-bottom: 15px;
 }
