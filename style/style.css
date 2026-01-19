@@ -208,7 +208,17 @@ position: absolute;
 .host-image{
     padding: 40px;    
 }
-
+.host-image img{
+    animation: spinX 3s ease-in infinite;
+}
+@keyframes spinX{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
 .host-info{
     align-items: flex-start;
 }
