@@ -102,14 +102,74 @@ position: absolute;
     border: none;
     color: white;
 }
-.banner-info{
-    
+.card-container{
+    margin-top: 70px;
+    padding: 20px;
+    text-align: center;
+}
+.information{
+    max-width: 650px;
+    font-size: 0.75rem;
+    color: rgb(182, 168, 168);
+}
+.cards{
+    gap: 40px;
+    padding: 10px;
+    border-top: 1px solid rgb(182, 168, 168);
+    margin-top: 50px;
+}
+.card{
+    padding: 30px;
+    color: green;
+}
+/*grid container*/
+.grid-container{
+    margin-top: 70px;
+    background-color: #1f0a32;
+    padding: 30px;
+
 }
 
 
 
+.grid-container h1{
+    text-align: center;
+}
+.grid{margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,auto);
+    gap: 30px; 
+}
+.grid>div{
+    background-color: #190a32;
+    border-radius: 35px;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+.grid>div>img{width: 40px;
 
+}
+.grid-information{
+    width: 100%;
+}
+.grid-1{
+    grid-row: span 2;
+    
+    
+    
+}
 
+.grid-2,.grid-3{
+    grid-column: span 2;
+
+}
+.grid-4{
+    grid-column: span 2;
+}
 
 
 
@@ -124,4 +184,21 @@ position: absolute;
     .hamburger{
         display: inline;
     }
+.badge{
+
+position: absolute;
+    top: 35;
+    right: 180;
+   
+}
+
+.cards{
+    flex-wrap: wrap;
+}
+.grid{
+    grid-template-columns: repeat(1,1fr);
+   
+    gap: 10px; 
+}
+
 }
