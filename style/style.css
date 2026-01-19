@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     padding: 0;
     margin: 0 ;
@@ -9,6 +10,7 @@
     background-color: #190a32;
     color: white;
     padding: 10px;
+    font-family: "Inter", sans-serif;
 }
 .display-flex{
     display: flex;
@@ -30,6 +32,8 @@
      border-radius: 100px;
      color:white;
      padding: 10px 20px;
+     border: none;
+     margin-right: 10px;
 }
 .btn2{
     border-radius: 100px;
@@ -37,6 +41,12 @@
      padding: 10px 20px;
      border: 1px solid green;
      background-color: transparent;
+}
+.title{
+    font-size:2rem;
+    font-weight: 900;
+
+
 }
 .nav-container{
 padding: 20px;
@@ -60,15 +70,18 @@ padding: 20px;
 /*banner*/
 .banner-container{
     background-image: url(../assets/Vector.png),url(../assets/hero-bg.png);
-    background-position: center center,center top;
+    background-position: center center ,center top;
     background-repeat: 
     no-repeat;
-    background-size: 250px,cover;
-   padding-top: 150px;
-    height: ;
+    background-size:350px,cover;
+    padding: 30px;
+    height: 500px;
+   
+
 }
-.banner{
-}
+
+
+
 
 
 
