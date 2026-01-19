@@ -9,7 +9,7 @@
     margin: 0 auto;
     background-color: #190a32;
     color: white;
-    padding: 10px;
+   
     font-family: "Inter", sans-serif;
 }
 .display-flex{
@@ -64,10 +64,10 @@ padding: 20px;
 .nav-container span{
     color:magenta;
 }
-.menu ul{
+.menu ul,.menu-foot ul{
     list-style: none;
 }
-.menu ul li{
+.menu ul li,.menu-foot ul li{
     margin-right: 16px;
 }
 .hamburger{
@@ -81,6 +81,7 @@ padding: 20px;
     no-repeat;
     background-size:cover;
     padding: 30px;
+    margin-top: 70px;
     max-height: 700px ;
 position: relative;
 }
@@ -214,9 +215,18 @@ position: absolute;
 .icons{
     gap: 15px;
 }
-
-
-
+/*footer*/
+footer{
+    padding: 50px;
+    background-image: url(../assets/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo-foot{
+    font-size: 3rem;
+    font-weight: 900;
+}
 
 
 
@@ -250,7 +260,7 @@ position: absolute;
    
     gap: 10px; 
 }
-.videos{
+.videos,.menu-foot ul{
     flex-wrap: wrap;
 }
 .host-container{
@@ -266,9 +276,12 @@ position: absolute;
 .host-info{
     align-items: center;
 }
-
-
-
+{
+    f
+}
+.menu-foot ul li{
+    margin-bottom: 15px;
+}
 
 
 }
