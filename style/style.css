@@ -202,6 +202,7 @@ position: absolute;
     padding: 20px 30px;
    border-radius: 35px;
    margin: 70px 35px;
+   place-items: center;
    
 }
 .host-image{
@@ -252,15 +253,20 @@ position: absolute;
    
 }
 
-.cards{
-    flex-wrap: wrap;
+.cards,.menu-foot ul{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,auto);
+    gap: 15px;
 }
+    
+
 .grid{
     grid-template-columns: repeat(1,1fr);
    
     gap: 10px; 
 }
-.videos,.menu-foot ul{
+.videos{
     flex-wrap: wrap;
 }
 .host-container{
