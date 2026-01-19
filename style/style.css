@@ -48,6 +48,12 @@
 
 
 }
+.title-sm{
+     font-size:1.25rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
 .nav-container{
 padding: 20px;
 }
@@ -139,13 +145,13 @@ position: absolute;
     grid-template-rows: repeat(3,auto);
     gap: 30px; 
 }
-.grid>div{
+.grid>div,.videos{
     background-color: #190a32;
     border-radius: 35px;
     padding: 20px 40px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     text-align: left;
 }
 .grid>div>img{width: 40px;
@@ -166,15 +172,23 @@ position: absolute;
 }
 /*video container*/
 .videos{
-    margin-top: 70px;
-    padding:30px ;
-    justify-content: space-around;
+    flex-direction: row;
+}
+.video{
+    background-color: #1f0a32;
+    padding: 20px 30px;
+    border-radius: 35px;
+    height: auto;
 }
 .video iframe{
     width: 100%;
     height: 100%;
+    margin-bottom: 10px;
+    
 }
-
+.video p{
+    margin: 10px 0;
+}
 
 
 @media screen and (max-width:576px){
@@ -203,5 +217,7 @@ position: absolute;
    
     gap: 10px; 
 }
-
+.videos{
+    flex-wrap: wrap;
+}
 }
