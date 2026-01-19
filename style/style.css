@@ -69,16 +69,43 @@ padding: 20px;
 }
 /*banner*/
 .banner-container{
-    background-image: url(../assets/Vector.png),url(../assets/hero-bg.png);
-    background-position: center center ,center top;
+    background-image:url(../assets/hero-bg.png);
+    background-position: center ;
     background-repeat: 
     no-repeat;
-    background-size:350px,cover;
+    background-size:cover;
     padding: 30px;
-    height: 500px;
-   
-
+    max-height: 700px ;
+position: relative;
 }
+.banner{
+    background-image: url(../assets/Vector.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+     background-size:contain;
+    margin: 0 auto;
+    text-align: center;
+}
+ .banner img{
+    padding: 20px;
+ }   
+
+.badge{
+
+position: absolute;
+    top: 30;
+    right: 600;
+    padding: 5px;
+    background-color: rgb(11, 128, 0);
+    border-radius: 25px;
+    border: none;
+    color: white;
+}
+.banner-info{
+    
+}
+
 
 
 
