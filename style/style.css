@@ -129,7 +129,7 @@ position: absolute;
     color: green;
 }
 /*grid container*/
-.grid-container{
+.grid-container,.host-container{
     margin-top: 70px;
     background-color: #1f0a32;
     padding: 30px;
@@ -189,6 +189,39 @@ position: absolute;
 .video p{
     margin: 10px 0;
 }
+/*Host*/
+.Host>h1{
+    text-align: center;
+    margin-top: 70px;
+    
+}
+.host-container{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    padding: 20px 30px;
+   border-radius: 35px;
+   margin: 70px 35px;
+   
+}
+.host-image{
+    padding: 40px;    
+}
+.host-image img{float: right;
+}
+.host-info{
+    align-items: flex-start;
+}
+.icons{
+    gap: 15px;
+}
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:576px){
@@ -220,4 +253,22 @@ position: absolute;
 .videos{
     flex-wrap: wrap;
 }
+.host-container{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    padding: 20px ;
+  place-items: center;
+   margin:35px;
+   
+}
+.host-image img{float: left;
+}
+.host-info{
+    align-items: center;
+}
+
+
+
+
+
 }
