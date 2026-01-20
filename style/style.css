@@ -34,6 +34,7 @@
      padding: 10px 20px;
      border: none;
      margin-right: 10px;
+     
 }
 .btn2{
     border-radius: 100px;
@@ -41,6 +42,9 @@
      padding: 10px 20px;
      border: 1px solid green;
      background-color: transparent;
+}
+.btn,.btn2{
+    cursor: pointer;
 }
 .title{
     font-size:2rem;
@@ -210,8 +214,8 @@ position: absolute;
 .host-image{
     padding: 40px;    
 }
-.host-image img{
-    animation: spinX 2s linear 3s;
+.host-image img,.badge{
+    animation: spinX 2s ease-in-out infinite;
 }
 @keyframes spinX{
     from{
@@ -220,6 +224,9 @@ position: absolute;
     to{
         transform: rotateY(360deg);
     }
+}
+.host-image img:hover{
+     animation-play-state: paused;
 }
 .host-info{
     align-items: flex-start;
