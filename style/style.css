@@ -93,9 +93,11 @@ position: relative;
      background-size:contain;
     margin: 0 auto;
     text-align: center;
+   
 }
  .banner img{
     padding: 20px;
+     
  }   
 
 .badge{
@@ -103,8 +105,8 @@ position: relative;
 position: absolute;
     top: 30;
     right: 600;
-    padding: 5px;
-    background-color: rgb(11, 128, 0);
+    padding: 5px 10px;
+    background-color: rgb(97, 175, 90);
     border-radius: 25px;
     border: none;
     color: white;
@@ -209,7 +211,7 @@ position: absolute;
     padding: 40px;    
 }
 .host-image img{
-    animation: spinX 3s ease-in infinite;
+    animation: spinX 2s linear 3s;
 }
 @keyframes spinX{
     from{
@@ -237,7 +239,10 @@ footer{
     font-size: 3rem;
     font-weight: 900;
 }
-
+.horizontal-bar{
+    width: 40%;
+    color: rgb(182, 168, 168);
+margin: 0 auto;}
 
 
 
@@ -294,5 +299,8 @@ position: absolute;
     margin-bottom: 15px;
 }
 
+.horizontal-bar{
+    width: 60%;
+   }
 
 }
